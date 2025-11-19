@@ -1,0 +1,7 @@
+digraph {
+	A [label="Início" shape=box]
+	B [label=Meio shape=box]
+	C [label=Fim shape=box]
+	A -> B
+	B -> C
+}
