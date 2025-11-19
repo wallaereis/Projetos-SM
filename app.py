@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import pydeck as pdk
 
+st.title("Mapa de Lojas")
 # Criando DataFrame com lojas e coordenadas
 data = pd.DataFrame({
     'lojas':["Fonseca", "Piratininga","Itaipú", "Santa Cruz", "Lote Xv", "Porto Novo", 
