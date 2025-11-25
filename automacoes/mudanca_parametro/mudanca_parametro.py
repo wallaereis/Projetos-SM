@@ -13,7 +13,7 @@ print("o programa começou")
 py.hotkey('alt' , 'tab')
 
 py.FAILSAFE = True
-py.PAUSE = 1
+py.PAUSE = 0.5
 
 
 for row in ws.iter_rows(min_row=2):
@@ -24,10 +24,10 @@ for row in ws.iter_rows(min_row=2):
     py.moveTo(469,345)
     for x in range(2):
         py.scroll(-5000)
-    py.click(545,359)
+    
+    py.click(539,395)
     py.doubleClick()
     py.press("delete")
-    py.click(545,359)
     py.write(str(row[2].value))
     py.press("tab")
     py.write(str(row[3].value))
