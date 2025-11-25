@@ -7,15 +7,25 @@ py.PAUSE = 0.5
 
 
 def titulo(loja):
-    titulo =f'Recibos - Premiações de Novembro 2025 - {loja}'
+    # titulo =f'Recibos - Premiações de Novembro 2025 - {loja}'
+    titulo =f"Planilha para a Criação das Metas de Venda - Dezembro 2025 - {loja}"
     pyperclip.copy(titulo)
     py.hotkey('ctrl', 'v')
 
 
 def descricao():
-    descricao = "Bom dia,\n\nEncaminho em anexo os recibos correspondentes ao mês de Novembro.\n\nFico à disposição para quaisquer esclarecimentos que se fizerem necessários.\n\nAtenciosamente,"
+    # descricao = "Bom dia,\n\nEncaminho em anexo os recibos correspondentes ao mês de Novembro.\n\nFico à disposição para quaisquer esclarecimentos que se fizerem necessários.\n\nAtenciosamente,"
+    descricao = "Bom dia,\n\nSegue a planilha para sugestão de Meta de Venda do Mês de Dezembro 2025.\n\nAtenciosamente,"
     pyperclip.copy(descricao)
     py.hotkey('ctrl', 'v')
+
+def arquivo(loja):
+    caminho = fr"C:\Users\wallace.souza\Desktop\Definição Meta Dez25 - {loja}.xlsm"
+    pyperclip.copy(caminho)
+    py.hotkey('ctrl', 'v')  
+
+
+
 
 
 time.sleep(3)
@@ -63,8 +73,17 @@ if len(assunto) > 0:
 
 titulo("Fonseca")
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Fonseca')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -110,8 +129,17 @@ if len(assunto) > 0:
 
 titulo("Piratininga")
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Piratininga')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -158,8 +186,18 @@ if len(assunto) > 0:
 
 titulo("Itaipú")
 
+
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Itaipú')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -206,9 +244,17 @@ if len(assunto) > 0:
 
 titulo("Santa Cruz")
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
 
+arquivo('Santa Cruz')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -253,8 +299,17 @@ if len(assunto) > 0:
 
 titulo("Lote XV")
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Lote XV')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -299,8 +354,17 @@ if len(assunto) > 0:
 
 titulo("Porto Novo")
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Porto Novo')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -345,8 +409,17 @@ if len(assunto) > 0:
 
 titulo('Batalha')
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Batalha')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -391,8 +464,18 @@ if len(assunto) > 0:
 
 titulo("Nova Iguaçú")
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Nova Iguaçú')
+
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -438,8 +521,17 @@ if len(assunto) > 0:
 
 titulo("Porto Velho")
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Porto Velho')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -484,8 +576,17 @@ if len(assunto) > 0:
 
 titulo('Engenho')
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Engenho')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -530,8 +631,17 @@ if len(assunto) > 0:
 
 titulo('Mesquita')
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Mesquita')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -576,8 +686,17 @@ if len(assunto) > 0:
 
 titulo('Valverde')
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Valverde')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -623,8 +742,17 @@ if len(assunto) > 0:
 
 titulo('Barreto')
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Barreto')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -669,8 +797,17 @@ if len(assunto) > 0:
 
 titulo('Nova América')
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Nova América')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -714,9 +851,17 @@ if len(assunto) > 0:
     py.click(segundo)
 
 titulo("Inhaúma")
-
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Inhaúma')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
@@ -761,8 +906,17 @@ if len(assunto) > 0:
 
 titulo('Curtume')
 
+py.press('tab')
 for x in range(2):
-    py.press('tab')
+    py.press('enter')
+
+arquivo('Curtume')
+
+py.press('enter')
+
+py.click(540,935)
+
+py.press('tab')
 
 descricao()
 
