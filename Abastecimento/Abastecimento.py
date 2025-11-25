@@ -87,7 +87,7 @@ ajustar_quantidade(abs)
 abs = abs[['LOJA', 'SEQPRODUTO','QTD ESTQ MÍNIMO', 'QTD ESTQ MÁXIMO', 'DIAS COBERT MÍNIMO',
        'DIAS COBERT MÁXIMO']]
 
-abs = abs[~abs['SEQPRODUTO'].isin([41102,1257,3938,31013,52])]
+# abs = abs[~abs['SEQPRODUTO'].isin([41102,1257,3938,31013,52])]
 
 
 abs.columns= [['LOJA', 'SEQPRODUTO', 'QTD_ESTQ_MINIMO', 'QTD_ESTQ_MAXIMO',
